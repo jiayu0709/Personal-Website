@@ -1,0 +1,75 @@
+/* 全域設定 */
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* 導覽列 */
+header {
+  width: 100%;
+  background-color: white;
+  padding: 20px 60px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* 首頁區塊 */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c8aca3; /* 淡粉棕色背景 */
+  padding: 60px 100px;
+  border-radius: 30px;
+  margin: 40px auto;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.hero-text {
+  margin-left: 60px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  margin: 10px 0;
+  font-weight: bold;
+}
