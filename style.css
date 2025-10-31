@@ -42,34 +42,43 @@ nav {
 }
 
 /* 首頁區塊 */
+/* --- 首頁主區塊（Hero）--- */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c8aca3; /* 淡粉棕色背景 */
-  padding: 60px 100px;
-  border-radius: 30px;
-  margin: 40px auto;
-  width: 80%;
+  gap: 100px; /* 圖片與文字間距 */
+  background-color: #c8aca3;
+  padding: 100px 160px; /* 上下左右留白 */
+  border-radius: 40px 0 0 0;
+  width: 100%;
   box-sizing: border-box;
 }
 
+/* --- 照片設定 --- */
 .hero-image img {
-  width: 300px;
-  border-radius: 20px;
+  width: 420px;
+  border-radius: 40px;
+  margin-left: 40px;
+  object-fit: cover;
 }
 
+/* --- 文字區塊 --- */
 .hero-text {
-  margin-left: 60px;
+  text-align: left;
+  max-width: 400px;
 }
 
 .hero-text p {
-  font-size: 20px;
+  font-size: 24px;
   margin: 10px 0;
+  color: #2e1f1f;
 }
 
 .hero-text h1 {
-  font-size: 70px;
-  margin: 10px 0;
-  font-weight: bold;
+  font-size: 96px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: #1a1110;
+  line-height: 1.1;
 }
